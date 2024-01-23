@@ -9,3 +9,27 @@
 .socials {
   box-shadow: 0 0 50px #ccc;
 }
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  font-size: 3rem;
+  text-align: center;
+  padding: 2rem;
+  border: 2px solid #777;
+  color: #eee;
+  background: #464646;
+  border-radius: 2px;
+  transition: 200ms;
+  aspect-ratio: 1/1;
+}
+
+.name {
+  font-size: 15px;
+}
+
+.icons:hover {
+  color: #222;
+  background: #dedede;
+  transform: scale(1.1);
+}
