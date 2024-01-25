@@ -33,3 +33,14 @@
   background: #dedede;
   transform: scale(1.1);
 }
+
+.profiles {
+  padding: 1.4rem;
+  border-radius: 50%;
+  box-shadow: 0 2px 50px #aaa;
+  cursor: pointer;
+}
+
+.profiles:hover {
+  box-shadow: 0 2px 50px #666;
+}

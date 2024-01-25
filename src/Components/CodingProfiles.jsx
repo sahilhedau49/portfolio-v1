@@ -1,21 +1,42 @@
 import React from "react";
-import lc from "../assets/lc.jpg";
-import gfg from "../assets/gfg.jpg";
-import cc from "../assets/cc.jpg";
+import leetcode from "../assets/leetcode.png";
+import gfg from "../assets/gfg.png";
+import github from "../assets/github.png";
 
 const CodingProfiles = () => {
   return (
-    <div className="flex min-h-[30vh]">
-      <div className="w-[60%]  m-auto text-center">
+    <div>
+      <div className="w-[60%] mx-auto mt-32 text-center">
         <div className="mb-4">
           <h1 className="text-3xl font-bold uppercase tracking-wide">
             Coding Profiles
           </h1>
         </div>
-        <div className="flex gap-3 text-lg">
-          <img className="bg-blend-normal" src={lc} alt="" />
-          <img className="bg-blend-normal" src={gfg} alt="" />
-          <img className="bg-blend-normal" src={cc} alt="" />
+        <div className="flex mt-20 w-fit mx-auto gap-32 text-lg">
+          <a href="https://leetcode.com/sahilhedau49/" target="_blank">
+            <img
+              className="w-[8rem] profiles duration-300 hover:-translate-y-3"
+              src={leetcode}
+              alt="Leetcode Link"
+            />
+          </a>
+          <a href="https://github.com/sahilhedau49" target="_blank">
+            <img
+              className="w-[8rem] profiles duration-300 hover:-translate-y-3"
+              src={github}
+              alt="Github link"
+            />
+          </a>
+          <a
+            href="https://auth.geeksforgeeks.org/user/hedausahil49"
+            target="_blank"
+          >
+            <img
+              className="w-[8rem] profiles duration-300 hover:-translate-y-3"
+              src={gfg}
+              alt="GFG Link"
+            />
+          </a>
         </div>
       </div>
     </div>

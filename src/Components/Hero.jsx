@@ -1,10 +1,11 @@
 import React from "react";
 import gif from "../assets/mouse-scroll.gif";
+import videoURL from "../assets/videoplayback.mp4";
 
 const Hero = () => {
   return (
     <>
-      <div className="absolute top-[50%] -translate-y-1/2 socials bg-[#d8fff1] rounded-lg">
+      <div className="absolute right-0 top-[50%] -translate-y-1/2 socials bg-[#d8fff1] rounded-lg">
         <ul className="flex flex-col text-3xl px-1 py-2 gap-4">
           <li className="px-3 py-2 hover:bg-[#ccecdf] rounded-md duration-300">
             <a href="https://github.com/sahilhedau49" target="_blank">
@@ -32,7 +33,7 @@ const Hero = () => {
         </ul>
       </div>
       <div className="hero flex flex-col min-h-[80vh]">
-        <div className="w-[50%] text-center block mx-auto my-auto ">
+        <div className="w-[50%] text-center block mx-auto my-auto">
           <h1 className="text-[3.4rem] tracking-wide font-extrabold">
             HEY, I'M SAHIL HEDAU
           </h1>

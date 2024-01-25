@@ -1,6 +1,5 @@
 import React from "react";
 import "../Global.css";
-import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -14,10 +13,10 @@ const Navbar = () => {
         <div className="flex place-items-center">
           <ul className="flex gap-14 text-sm font-semibold uppercase tracking-wide">
             <li className="cursor-pointer">
-              <a>Home</a>
+              <a href="#">Home</a>
             </li>
             <li className="cursor-pointer">
-              <a>About</a>
+              <a href="#about">About</a>
             </li>
             <li className="cursor-pointer">
               <a>Projects</a>

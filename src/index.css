@@ -8,6 +8,7 @@
   /* background-color: #242424; */
   /* background-color: #212529; */
   background-color: #f0f8ff;
+  scroll-behavior: smooth;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
