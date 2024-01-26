@@ -5,9 +5,7 @@ const Skills = () => {
     <>
       <div className="w-[60%] mx-auto">
         <div className="text-center">
-          <h1 className="text-3xl font-bold uppercase tracking-wide">
-            My Skills
-          </h1>
+          <h1 className="text-3xl font-bold uppercase tracking-wide">Skills</h1>
         </div>
         <div className="grid grid-cols-6 gap-1 mt-8">
           <div className="flex flex-col justify-between icons">

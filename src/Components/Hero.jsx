@@ -1,6 +1,5 @@
 import React from "react";
 import gif from "../assets/mouse-scroll.gif";
-import videoURL from "../assets/videoplayback.mp4";
 
 const Hero = () => {
   return (
@@ -41,9 +40,11 @@ const Hero = () => {
             A MERN Stack Web Developer building the Frontend and Backend of
             Websites that leads to the success of the overall product.
           </p>
-          <button className="btn text-gray-200 mt-10 duration-300 hover:-translate-y-1 px-10 py-3 rounded-lg text-2xl font-semibold bg-[#343434]">
-            Projects
-          </button>
+          <a href="#projects">
+            <button className="btn text-gray-200 mt-10 duration-300 hover:-translate-y-1 px-10 py-3 rounded-lg text-2xl font-semibold bg-[#343434]">
+              Projects
+            </button>
+          </a>
         </div>
       </div>
       <div className="block">

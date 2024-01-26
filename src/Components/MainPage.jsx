@@ -12,11 +12,11 @@ const MainPage = () => {
       <div className="mt-10">
         <About />
       </div>
+      <CodingProfiles />
+      <ProjectSection />
       <div className="my-10">
         <Skills />
       </div>
-      <CodingProfiles />
-      <ProjectSection />
     </>
   );
 };

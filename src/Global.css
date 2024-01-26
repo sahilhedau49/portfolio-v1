@@ -44,3 +44,15 @@
 .profiles:hover {
   box-shadow: 0 2px 50px #666;
 }
+
+.project {
+  filter: drop-shadow(0 10px 10px #aaa);
+}
+
+.project-img {
+  transition: 0.5s;
+}
+
+.project-img:hover {
+  transform: scale(1.05);
+}

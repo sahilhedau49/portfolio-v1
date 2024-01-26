@@ -5,8 +5,8 @@ import github from "../assets/github.png";
 
 const CodingProfiles = () => {
   return (
-    <div>
-      <div className="w-[60%] mx-auto mt-32 text-center">
+    <div id="profiles">
+      <div className="w-[60%] mx-auto pt-10 text-center">
         <div className="mb-4">
           <h1 className="text-3xl font-bold uppercase tracking-wide">
             Coding Profiles
