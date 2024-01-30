@@ -17,20 +17,20 @@ const ProjectSection = () => {
             </h1>
           </div>
           <Project
-            image={notehub}
-            name={"NoteHub"}
-            desc={"A documents sharing and storing web application."}
-            tags={"ReactJS, Firebase, TailwindCSS, Firestore"}
-            deployedUrl={"https://notehub-sahilhedau49.netlify.app/"}
-            githubUrl={"https://github.com/sahilhedau49/NoteHub"}
-          />
-          <Project2
             image={adidas}
             name={"Adidas Clone"}
             desc={"An e-commerce website with admin dashboard."}
             tags={"ReactJS, MongoDB, Express, NodeJS, Firebase, TailwindCSS"}
             deployedUrl={"https://adidas-clone-sahilhedau49.netlify.app/"}
             githubUrl={"https://github.com/sahilhedau49/adidas-clone"}
+          />
+          <Project2
+            image={notehub}
+            name={"NoteHub"}
+            desc={"A documents sharing and storing web application."}
+            tags={"ReactJS, Firebase, TailwindCSS, Firestore"}
+            deployedUrl={"https://notehub-sahilhedau49.netlify.app/"}
+            githubUrl={"https://github.com/sahilhedau49/NoteHub"}
           />
           <Project
             image={homeo}

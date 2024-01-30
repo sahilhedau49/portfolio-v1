@@ -1,5 +1,6 @@
 import React from "react";
 import gif from "../assets/mouse-scroll.gif";
+import boy from "../assets/codingboy.png";
 
 const Hero = () => {
   return (
@@ -30,6 +31,9 @@ const Hero = () => {
             </a>
           </li>
         </ul>
+      </div>
+      <div className="avatar absolute top-1/2 -translate-x-32 duration-300 hover:-translate-x-16 -translate-y-1/2 w-[25%]">
+        <img src={boy} alt="Avatar" />
       </div>
       <div className="hero flex flex-col min-h-[80vh]">
         <div className="w-[50%] text-center block mx-auto my-auto">

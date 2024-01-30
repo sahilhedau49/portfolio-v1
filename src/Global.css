@@ -56,3 +56,7 @@
 .project-img:hover {
   transform: scale(1.05);
 }
+
+.avatar {
+  filter: drop-shadow(-10px 0 20px #999);
+}
