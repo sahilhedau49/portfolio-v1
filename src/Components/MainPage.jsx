@@ -4,6 +4,7 @@ import About from "./About";
 import Skills from "./Skills";
 import ProjectSection from "./ProjectSection";
 import CodingProfiles from "./CodingProfiles";
+import Contact from "./Contact";
 
 const MainPage = () => {
   return (
@@ -16,6 +17,9 @@ const MainPage = () => {
       <ProjectSection />
       <div className="my-10">
         <Skills />
+      </div>
+      <div className="mt-20">
+        <Contact />
       </div>
     </>
   );

@@ -7,12 +7,12 @@ const Hero = () => {
     <>
       <div className="absolute right-0 top-[50%] -translate-y-1/2 socials bg-[#d8fff1] rounded-lg">
         <ul className="flex flex-col text-3xl px-1 py-2 gap-4">
-          <li className="px-3 py-2 hover:bg-[#ccecdf] rounded-md duration-300">
+          <li className="px-3 text-center py-2 hover:bg-[#ccecdf] rounded-md duration-300">
             <a href="https://github.com/sahilhedau49" target="_blank">
               <i class="fa-brands fa-github"></i>
             </a>
           </li>
-          <li className="px-3 py-2 hover:bg-[#ccecdf] rounded-md duration-300">
+          <li className="px-3 text-center py-2 hover:bg-[#ccecdf] rounded-md duration-300">
             <a
               href="https://www.linkedin.com/in/sahil-hedau-2a6729228/"
               target="_blank"
@@ -20,12 +20,12 @@ const Hero = () => {
               <i class="fa-brands fa-linkedin"></i>
             </a>
           </li>
-          <li className="px-3 py-2 hover:bg-[#ccecdf] rounded-md duration-300">
+          <li className="px-3 text-center py-2 hover:bg-[#ccecdf] rounded-md duration-300">
             <a href="https://www.instagram.com/sahil.hedau/" target="_blank">
               <i class="fa-brands fa-instagram"></i>
             </a>
           </li>
-          <li className="px-3 py-2 hover:bg-[#ccecdf] rounded-md duration-300">
+          <li className="px-3 text-center py-2 hover:bg-[#ccecdf] rounded-md duration-300">
             <a href="https://twitter.com/sahil_hedau" target="_blank">
               <i class="fa-brands fa-twitter"></i>
             </a>
@@ -35,7 +35,7 @@ const Hero = () => {
       <div className="avatar absolute top-1/2 -translate-x-32 duration-300 hover:-translate-x-16 -translate-y-1/2 w-[25%]">
         <img src={boy} alt="Avatar" />
       </div>
-      <div className="hero flex flex-col min-h-[80vh]">
+      <div className="hero flex flex-col min-h-[90vh] pb-10">
         <div className="w-[50%] text-center block mx-auto my-auto">
           <h1 className="text-[3.4rem] tracking-wide font-extrabold">
             HEY, I'M SAHIL HEDAU
@@ -44,15 +44,19 @@ const Hero = () => {
             A MERN Stack Web Developer building the Frontend and Backend of
             Websites that leads to the success of the overall product.
           </p>
-          <a href="#projects">
-            <button className="btn text-gray-200 mt-10 duration-300 hover:-translate-y-1 px-10 py-3 rounded-lg text-2xl font-semibold bg-[#343434]">
-              Projects
+          <a
+            href="https://drive.google.com/file/d/1q95wEJWIWepD6JKfW3dVjE726oq6InZE/view?usp=sharing"
+            target="_blank"
+          >
+            <button className="btn text-gray-200 mt-10 duration-300 hover:-translate-y-1 px-10 py-3 rounded-lg text-xl font-semibold bg-[#2f3335]">
+              <i class="fa-solid fa-download"></i>
+              {` `} RESUME
             </button>
           </a>
+        </div>{" "}
+        <div className="block">
+          <img className="w-10 mx-auto" src={gif} />
         </div>
-      </div>
-      <div className="block">
-        <img className="w-10 mx-auto" src={gif} />
       </div>
     </>
   );

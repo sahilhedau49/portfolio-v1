@@ -1,5 +1,5 @@
 .navbar {
-  box-shadow: 0 0 20px #222;
+  filter: drop-shadow(0 10px 10px #aaa);
 }
 
 .btn {
@@ -17,8 +17,8 @@
   text-align: center;
   padding: 2rem;
   border: 2px solid #777;
-  color: #eee;
-  background: #464646;
+  color: #c0c0c0;
+  background: #2c3032;
   border-radius: 2px;
   transition: 200ms;
   aspect-ratio: 1/1;
@@ -59,4 +59,18 @@
 
 .avatar {
   filter: drop-shadow(-10px 0 20px #999);
+}
+
+.contact,
+.hero {
+  background: linear-gradient(
+      to right,
+      rgba(245, 245, 245, 0.8),
+      rgba(245, 245, 245, 0.8)
+    ),
+    url(assets\common-bg.svg);
+}
+
+.contact-shadow {
+  filter: drop-shadow(0 0 20px #ddd);
 }
