@@ -1,24 +1,19 @@
 import React, { useState } from "react";
 
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
+  // const [formData, setFormData] = useState({
+  //   name: "",
+  //   email: "",
+  //   message: "",
+  // });
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log("Form submitted:", formData);
-  };
+  // const handleChange = (e) => {
+  //   const { name, value } = e.target;
+  //   setFormData({
+  //     ...formData,
+  //     [name]: value,
+  //   });
+  // };
 
   return (
     <div id="contact" className="contact py-20">
@@ -33,14 +28,17 @@ const Contact = () => {
           </p>
         </div>
         <div className="mt-10 bg-gray-50 p-10 text-lg font-medium rounded-xl contact-shadow">
-          <form onSubmit={handleSubmit}>
+          <form
+            action="https://getform.io/f/c78e956c-14c5-4154-bb2f-6b633f7e88ee"
+            method="POST"
+          >
             <div className="w-full flex flex-col">
               <label className="text-xl mb-2">Name</label>
               <input
                 type="text"
                 name="name"
-                value={formData.name}
-                onChange={handleChange}
+                // value={formData.name}
+                // onChange={handleChange}
                 required
                 placeholder="Enter Your Name"
                 className="w-full text-gray-600 mb-6 border-[1px] outline-none rounded-md border-[#ebebeb] bg-[#f0f0f0] px-8 py-2 text-lg"
@@ -51,8 +49,8 @@ const Contact = () => {
               <input
                 type="email"
                 name="email"
-                value={formData.email}
-                onChange={handleChange}
+                // value={formData.email}
+                // onChange={handleChange}
                 required
                 placeholder="Enter Your Email"
                 className="w-full text-gray-600 mb-6 border-[1px] outline-none rounded-md border-[#ebebeb] bg-[#f0f0f0] px-8 py-2 text-lg"
@@ -62,8 +60,8 @@ const Contact = () => {
               <label className="text-xl mb-2">Message</label>
               <textarea
                 name="message"
-                value={formData.message}
-                onChange={handleChange}
+                // value={formData.message}
+                // onChange={handleChange}
                 required
                 placeholder="Enter Your Message"
                 className="w-full text-gray-600 h-40 mb-6 border-[1px] outline-none rounded-md border-[#ebebeb] bg-[#f0f0f0] px-8 py-2 text-lg"
