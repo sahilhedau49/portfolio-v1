@@ -1,6 +1,7 @@
 import React from "react";
 import gif from "../assets/mouse-scroll.gif";
 import boy from "../assets/codingboy.png";
+import Navbar from "./Navbar";
 
 const Hero = () => {
   return (
@@ -32,15 +33,16 @@ const Hero = () => {
           </li>
         </ul>
       </div>
-      <div className="avatar absolute top-1/2 -translate-x-32 duration-300 hover:-translate-x-16 -translate-y-1/2 w-[25%]">
+      {/* <div className="avatar absolute top-1/2 -translate-x-32 duration-300 hover:-translate-x-16 -translate-y-1/2 w-[25%]">
         <img src={boy} alt="Avatar" />
-      </div>
-      <div className="hero flex flex-col min-h-[90vh] pb-10">
-        <div className="w-[50%] text-center block mx-auto my-auto">
-          <h1 className="text-[3.4rem] tracking-wide font-extrabold">
+      </div> */}
+      <div className="hero flex flex-col min-h-[100vh] pb-10">
+        <Navbar />
+        <div className="w-[70%] text-center block mx-auto my-auto">
+          <h1 className="text-[4rem] tracking-wide font-extrabold">
             HEY, I'M SAHIL HEDAU
           </h1>
-          <p className="mt-8 text-xl">
+          <p className="mt-8 text-2xl">
             A MERN Stack Web Developer building the Frontend and Backend of
             Websites that leads to the success of the overall product.
           </p>

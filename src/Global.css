@@ -1,5 +1,7 @@
 .navbar {
-  filter: drop-shadow(0 10px 10px #aaa);
+  filter: drop-shadow(0 0 20px #666);
+  /* background: #ffffff; */
+  /* backdrop-filter: blur(10px); */
 }
 
 .btn {
