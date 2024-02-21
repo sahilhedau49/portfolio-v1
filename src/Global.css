@@ -76,3 +76,7 @@
 .contact-shadow {
   filter: drop-shadow(0 0 20px #ddd);
 }
+
+.box-shadow {
+  box-shadow: 0 0 40px #aaa;
+}

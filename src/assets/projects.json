@@ -1,7 +1,7 @@
 {
   "1": {
     "id": "1",
-    "image": "adidas",
+    "image": "src/assets/adidas.png",
     "name": "Adidas Clone",
     "desc": "An e-commerce website with admin dashboard.",
     "tags": "ReactJS, MongoDB, Express, NodeJS, Firebase, TailwindCSS",
@@ -10,7 +10,7 @@
   },
   "2": {
     "id": "2",
-    "image": "adidas",
+    "image": "src/assets/adidas.png",
     "name": "Adidas Clone",
     "desc": "An e-commerce website with admin dashboard.",
     "tags": "ReactJS, MongoDB, Express, NodeJS, Firebase, TailwindCSS",
@@ -19,7 +19,61 @@
   },
   "3": {
     "id": "3",
-    "image": "adidas",
+    "image": "src/assets/adidas.png",
+    "name": "Adidas Clone",
+    "desc": "An e-commerce website with admin dashboard.",
+    "tags": "ReactJS, MongoDB, Express, NodeJS, Firebase, TailwindCSS",
+    "deployedUrl": "https://adidas-clone-sahilhedau49.netlify.app/",
+    "githubUrl": "https://github.com/sahilhedau49/adidas-clone"
+  },
+  "4": {
+    "id": "1",
+    "image": "src/assets/adidas.png",
+    "name": "Adidas Clone",
+    "desc": "An e-commerce website with admin dashboard.",
+    "tags": "ReactJS, MongoDB, Express, NodeJS, Firebase, TailwindCSS",
+    "deployedUrl": "https://adidas-clone-sahilhedau49.netlify.app/",
+    "githubUrl": "https://github.com/sahilhedau49/adidas-clone"
+  },
+  "5": {
+    "id": "2",
+    "image": "src/assets/adidas.png",
+    "name": "Adidas Clone",
+    "desc": "An e-commerce website with admin dashboard.",
+    "tags": "ReactJS, MongoDB, Express, NodeJS, Firebase, TailwindCSS",
+    "deployedUrl": "https://adidas-clone-sahilhedau49.netlify.app/",
+    "githubUrl": "https://github.com/sahilhedau49/adidas-clone"
+  },
+  "6": {
+    "id": "3",
+    "image": "src/assets/adidas.png",
+    "name": "Adidas Clone",
+    "desc": "An e-commerce website with admin dashboard.",
+    "tags": "ReactJS, MongoDB, Express, NodeJS, Firebase, TailwindCSS",
+    "deployedUrl": "https://adidas-clone-sahilhedau49.netlify.app/",
+    "githubUrl": "https://github.com/sahilhedau49/adidas-clone"
+  },
+  "7": {
+    "id": "1",
+    "image": "src/assets/adidas.png",
+    "name": "Adidas Clone",
+    "desc": "An e-commerce website with admin dashboard.",
+    "tags": "ReactJS, MongoDB, Express, NodeJS, Firebase, TailwindCSS",
+    "deployedUrl": "https://adidas-clone-sahilhedau49.netlify.app/",
+    "githubUrl": "https://github.com/sahilhedau49/adidas-clone"
+  },
+  "8": {
+    "id": "2",
+    "image": "src/assets/adidas.png",
+    "name": "Adidas Clone",
+    "desc": "An e-commerce website with admin dashboard.",
+    "tags": "ReactJS, MongoDB, Express, NodeJS, Firebase, TailwindCSS",
+    "deployedUrl": "https://adidas-clone-sahilhedau49.netlify.app/",
+    "githubUrl": "https://github.com/sahilhedau49/adidas-clone"
+  },
+  "9": {
+    "id": "3",
+    "image": "src/assets/adidas.png",
     "name": "Adidas Clone",
     "desc": "An e-commerce website with admin dashboard.",
     "tags": "ReactJS, MongoDB, Express, NodeJS, Firebase, TailwindCSS",
