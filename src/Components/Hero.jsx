@@ -1,6 +1,5 @@
 import React from "react";
 import gif from "../assets/mouse-scroll.gif";
-import boy from "../assets/codingboy.png";
 import Navbar from "./Navbar";
 
 const Hero = () => {
@@ -36,7 +35,7 @@ const Hero = () => {
       {/* <div className="avatar absolute top-1/2 -translate-x-32 duration-300 hover:-translate-x-16 -translate-y-1/2 w-[25%]">
         <img src={boy} alt="Avatar" />
       </div> */}
-      <div className="hero flex flex-col min-h-[100vh] pb-10">
+      <div className="hero flex flex-col min-h-[100vh] pb-10 text-[#111]">
         <Navbar />
         <div className="w-[70%] text-center block mx-auto my-auto">
           <h1 className="text-[4rem] tracking-wide font-extrabold">
@@ -50,7 +49,7 @@ const Hero = () => {
             href="https://drive.google.com/file/d/1q95wEJWIWepD6JKfW3dVjE726oq6InZE/view?usp=sharing"
             target="_blank"
           >
-            <button className="btn text-gray-200 mt-10 duration-300 hover:-translate-y-1 px-10 py-3 rounded-lg text-xl font-semibold bg-[#2f3335]">
+            <button className="btn text-gray-200 mt-10 duration-300 hover:-translate-y-1 px-10 py-3 rounded-lg text-xl font-semibold bg-[#212223]">
               <i class="fa-solid fa-download"></i>
               {` `} RESUME
             </button>
