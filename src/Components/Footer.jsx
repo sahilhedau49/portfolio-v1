@@ -19,16 +19,16 @@ const Footer = () => {
                 href="https://www.linkedin.com/in/sahil-hedau-2a6729228/"
                 target="_blank"
               >
-                <i class="fa-brands fa-linkedin"></i>
+                <i className="fa-brands fa-linkedin"></i>
               </a>
               <a href="https://github.com/sahilhedau49" target="_blank">
-                <i class="fa-brands fa-github"></i>
+                <i className="fa-brands fa-github"></i>
               </a>
               <a href="https://twitter.com/sahil_hedau" target="_blank">
-                <i class="fa-brands fa-twitter"></i>
+                <i className="fa-brands fa-twitter"></i>
               </a>
               <a href="https://www.instagram.com/sahil.hedau/" target="_blank">
-                <i class="fa-brands fa-instagram"></i>
+                <i className="fa-brands fa-instagram"></i>
               </a>
             </div>
           </div>

@@ -6,7 +6,6 @@ import ProjectsNavbar from "./ProjectsNavbar";
 const Projects = () => {
   const [data, setData] = useState([]);
   useEffect(() => {
-    console.log(projectsData);
     setData(Object.values(projectsData));
   }, []);
 

@@ -1,10 +1,21 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const ProjectCard = ({ data }) => {
+  const [image, setImage] = useState();
+
+  useEffect(() => {
+    const loadImage = async () => {
+      const { default: image } = await import(`${data.image}`);
+      setImage(image);
+    };
+
+    loadImage();
+  }, []);
+
   return (
     <div className="box-shadow p-4 duration-200 rounded-xl hover:-translate-y-2">
       <div>
-        <img src={data.image} alt={data.name} />
+        <img src={image} alt={data.name} />
       </div>
       <div className="w-[100%] flex justify-between mt-4">
         <div className="w-[70%]">
@@ -19,14 +30,14 @@ const ProjectCard = ({ data }) => {
           href={data.deployedUrl}
           target="_blank"
         >
-          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          <i className="fa-solid fa-arrow-up-right-from-square"></i>
         </a>
         <a
           className="duration-300 hover:text-gray-600"
           href={data.githubUrl}
           target="_blank"
         >
-          <i class="fa-brands fa-github"></i>
+          <i className="fa-brands fa-github"></i>
         </a>
       </div>
     </div>
