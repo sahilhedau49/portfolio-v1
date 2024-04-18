@@ -20,14 +20,14 @@ const Project = ({ image, name, desc, tags, deployedUrl, githubUrl }) => {
             href={deployedUrl}
             target="_blank"
           >
-            <i className="fa-solid fa-arrow-up-right-from-square"></i>
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
           </a>
           <a
             className="mr-6 duration-300 hover:text-gray-600"
             href={githubUrl}
             target="_blank"
           >
-            <i className="fa-brands fa-github"></i>
+            <i class="fa-brands fa-github"></i>
           </a>
         </div>
       </div>
