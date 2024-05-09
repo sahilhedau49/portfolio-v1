@@ -1,21 +1,21 @@
 import React, { useEffect, useState } from "react";
 
 const ProjectCard = ({ data }) => {
-  const [image, setImage] = useState();
+  // const [image, setImage] = useState();
 
-  useEffect(() => {
-    const loadImage = async () => {
-      const { default: image } = await import(`${data.image}`);
-      setImage(image);
-    };
+  // useEffect(() => {
+  //   const loadImage = async () => {
+  //     const { default: image } = await import(`${data.image}`);
+  //     setImage(image);
+  //   };
 
-    loadImage();
-  }, []);
+  //   loadImage();
+  // }, []);
 
   return (
     <div className="box-shadow p-4 duration-200 rounded-xl hover:-translate-y-2">
       <div>
-        <img src={image} alt={data.name} />
+        <img src={data.image} alt={data.name} />
       </div>
       <div className="w-[100%] flex justify-between mt-4">
         <div className="w-[70%]">
