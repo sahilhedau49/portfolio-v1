@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from "react";
-// import projectsData from "../assets/projects.json";
 import ProjectCard from "./ProjectCard";
 import ProjectsNavbar from "./ProjectsNavbar";
 import axios from "axios";
 
 const Projects = () => {
   const [data, setData] = useState();
-  // useEffect(() => {
-  //   setData(Object.values(projectsData));
-  // }, []);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   useEffect(() => {
     const fetchData = async () => {

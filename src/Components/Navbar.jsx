@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className="flex place-items-center">
           <ul className="flex gap-14 text-lg font-semibold text-gray-700 uppercase tracking-wide">
             <li className="hover:-translate-y-1 cursor-pointer duration-300 hover:text-gray-900">
-              <a href="#about">About</a>
+              <a href="#experience">Experience</a>
             </li>
             <li className="hover:-translate-y-1 cursor-pointer duration-300 hover:text-gray-900">
               <a href="#profiles">Profiles</a>

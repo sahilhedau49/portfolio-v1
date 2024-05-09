@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
 import gif from "../assets/mouse-scroll.gif";
 import Navbar from "./Navbar";
+import "../Global.css";
 
 const Hero = () => {
   return (
@@ -34,13 +34,17 @@ const Hero = () => {
       </div>
       <div className="hero flex flex-col min-h-[100vh] pb-10 text-[#111]">
         <Navbar />
-        <div className="w-[70%] text-center block mx-auto my-auto">
+        <div className="w-[60%] text-center block mx-auto my-auto">
           <h1 className="text-[4rem] tracking-wide font-extrabold">
             HEY, I'M SAHIL HEDAU
           </h1>
-          <p className="mt-8 text-2xl">
-            A MERN Stack Web Developer building the Frontend and Backend of
-            Websites that leads to the success of the overall product.
+          <p className="mt-4 text-2xl">
+            Full Stack Developer and Competitive Programmer
+          </p>
+          <p className="mt-2 text-gray-700">
+            I have a solid foundation in full stack technologies, with a passion
+            for creating engaging and user web experiences. Along with this, I
+            also practice Competitive Programming and DSA.
           </p>
           <a href={import.meta.env.VITE_React_App_RESUME_URL} target="_blank">
             <button className="btn text-gray-200 mt-10 duration-300 hover:-translate-y-1 px-10 py-3 rounded-lg text-xl font-semibold bg-[#212223]">

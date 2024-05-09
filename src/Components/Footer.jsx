@@ -5,11 +5,10 @@ const Footer = () => {
     <div className="w-full bg-black text-[#eee] px-40 py-20">
       <div>
         <div className="flex justify-between">
-          <div className="w-[40%]">
+          <div className="w-[40%] place-content-center">
             <h1 className="uppercase text-2xl font-medium">Sahil Hedau</h1>
             <p className="mt-4 text-sm">
-              A MERN Stack Web Developer building the Frontend and Backend of
-              Websites that leads to the success of the overall product.
+              Full Stack Developer and Competitive Programmer.
             </p>
           </div>
           <div className="w-[20%]">
