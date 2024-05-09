@@ -77,3 +77,23 @@
 .box-shadow {
   box-shadow: 0 0 40px #aaa;
 }
+
+.fill {
+  text-align: center;
+  --tw-bg-opacity: 1;
+  -webkit-text-fill-color: rgb(17 24 39 / var(--tw-bg-opacity));
+  -webkit-text-stroke: 5px rgb(31 41 55 / var(--tw-text-opacity));
+}
+
+.loading-page {
+  animation: loading-animation 1s ease-in-out 2s 1;
+}
+
+@keyframes loading-animation {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
