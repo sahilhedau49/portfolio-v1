@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ProjectCard from "./ProjectCard";
 import ProjectsNavbar from "./ProjectsNavbar";
+import Reveal from "./Reveal";
 import axios from "axios";
 
 const Projects = () => {
@@ -30,9 +31,11 @@ const Projects = () => {
       <ProjectsNavbar />
       <div className="my-10 min-h-screen">
         <div className="text-center mb-4">
-          <h1 className="text-3xl font-bold uppercase tracking-wide">
-            Projects
-          </h1>
+          <Reveal>
+            <h1 className="text-3xl font-bold uppercase tracking-wide">
+              Projects
+            </h1>
+          </Reveal>
         </div>
         <div className="grid grid-cols-2 gap-20 mx-20 mt-20">
           {data?.map((project) => {
