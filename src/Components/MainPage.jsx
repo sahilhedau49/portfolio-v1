@@ -6,6 +6,7 @@ import CodingProfiles from "./CodingProfiles";
 import Contact from "./Contact";
 import Experience from "./Experience";
 import "../Global.css";
+import "animate.css";
 
 const MainPage = () => {
   const [loading, setLoading] = useState(true);
@@ -32,11 +33,11 @@ const MainPage = () => {
         <Contact />
       </div>
       {loading && (
-        <div className="select-none loading-page min-h-screen min-w-full bg-gray-900 absolute top-0 left-0 flex justify-center">
-          <p className="fill text-gray-800 font-extrabold text-[16rem] place-content-center">
+        <div className="select-none loading-page min-h-screen min-w-full bg-zinc-900 fixed top-0 left-0 flex justify-center">
+          <p className="animate__animated animate__bounceInLeft fill text-zinc-800 font-extrabold text-[16rem] place-content-center">
             &lt; SH49 /&gt;
           </p>
-          <p className="absolute top-36 right-24 text-gray-800 font-extrabold text-[16rem] place-content-center">
+          <p className="animate__animated animate__bounceInRight absolute top-36 right-24 text-zinc-800 font-extrabold text-[16rem] place-content-center">
             &lt; SH49 /&gt;
           </p>
         </div>
