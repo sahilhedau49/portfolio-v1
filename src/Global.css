@@ -107,4 +107,33 @@
   .fill {
     -webkit-text-stroke: 2px rgb(39 39 42 / var(--tw-text-opacity));
   }
+
+  .profiles {
+    padding: 1.2rem;
+    border-radius: 50%;
+    box-shadow: 0 4px 50px #c2c2c2;
+    cursor: pointer;
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid #777;
+    color: #c0c0c0;
+    background: #2c3032;
+    border-radius: 2px;
+    transition: 200ms;
+    aspect-ratio: 1/1;
+  }
+
+  .name {
+    font-size: 10px;
+  }
+
+  .box-shadow {
+    box-shadow: 0 0 20px #c7c7c7;
+  }
 }

@@ -12,13 +12,14 @@ const ProjectSection = () => {
   const navigate = useNavigate();
   return (
     <>
-      <div id="projects" className="flex min-h-[30vh] my-20 py-10">
-        <div className="w-[70%] m-auto">
-          <div className="text-center mb-4">
-            <Reveal></Reveal>
-            <h1 className="text-3xl font-bold uppercase tracking-wide">
-              Projects
-            </h1>
+      <div id="projects" className="flex my-20 pt-10 md:pt-0">
+        <div className="w-[70%] m-auto md:w-[80%]">
+          <div className="text-center mb-10">
+            <Reveal>
+              <h1 className="text-3xl font-bold uppercase tracking-wide md:text-2xl">
+                Projects
+              </h1>
+            </Reveal>
           </div>
           <Reveal>
             <Project
@@ -67,7 +68,7 @@ const ProjectSection = () => {
           <Reveal>
             <button
               onClick={() => navigate("/projects")}
-              className="block mx-auto text-center px-8 py-3 rounded-full text-slate-50 border-2 border-slate-950 duration-300 bg-slate-950 hover:text-slate-950 hover:bg-slate-50 hover:-translate-y-1"
+              className="block mx-auto text-center px-8 md:px-6 py-3 md:py-2 rounded-full text-slate-50 border-2 border-slate-950 duration-300 bg-slate-950 hover:text-slate-950 hover:bg-slate-50 hover:-translate-y-1"
             >
               View More
             </button>

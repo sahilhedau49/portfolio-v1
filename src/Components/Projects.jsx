@@ -32,12 +32,12 @@ const Projects = () => {
       <div className="my-10 min-h-screen">
         <div className="text-center mb-4">
           <Reveal>
-            <h1 className="text-3xl font-bold uppercase tracking-wide">
+            <h1 className="text-3xl font-bold uppercase tracking-wide md:text-2xl">
               Projects
             </h1>
           </Reveal>
         </div>
-        <div className="grid grid-cols-2 gap-20 mx-20 mt-20">
+        <div className="grid grid-cols-2 md:grid-cols-1 gap-20 mx-20 mt-20 md:mx-6 md:mt-10">
           {data?.map((project) => {
             return <ProjectCard key={project.id} data={project} />;
           })}

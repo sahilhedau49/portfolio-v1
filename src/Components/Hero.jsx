@@ -35,13 +35,13 @@ const Hero = () => {
       <div className="hero flex flex-col min-h-[100vh] pb-10 text-[#111]">
         <Navbar />
         <div className="w-[60%] text-center block mx-auto my-auto md:w-[80%]">
-          <h1 className="text-[4rem] tracking-wide font-extrabold md:text-[2.8rem]">
+          <h1 className="text-[4rem] tracking-wide font-extrabold md:text-[2.6rem]">
             HEY, I'M SAHIL HEDAU
           </h1>
           <p className="mt-4 text-2xl md:text-xl">
             Full Stack Developer and Competitive Programmer
           </p>
-          <p className="mt-4 text-gray-700 md:text-sm">
+          <p className="mt-4 text-gray-700 md:text-base">
             I have a solid foundation in full stack technologies, with a passion
             for creating engaging and user web experiences. Along with this, I
             also practice Competitive Programming and DSA.

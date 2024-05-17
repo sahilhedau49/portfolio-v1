@@ -4,15 +4,15 @@ import Reveal from "./Reveal";
 const Skills = () => {
   return (
     <>
-      <div className="w-[60%] mx-auto">
+      <div className="w-[60%] mx-auto md:w-[90%]">
         <div className="text-center">
           <Reveal>
-            <h1 className="text-3xl font-bold uppercase tracking-wide">
+            <h1 className="text-3xl font-bold uppercase tracking-wide md:text-2xl">
               Skills
             </h1>
           </Reveal>
         </div>
-        <div className="grid grid-cols-6 gap-1 mt-8">
+        <div className="grid grid-cols-6 md:grid-cols-4 gap-1 mt-8">
           <Reveal>
             <div className="flex flex-col justify-between icons">
               <i class="devicon-javascript-plain"></i>
