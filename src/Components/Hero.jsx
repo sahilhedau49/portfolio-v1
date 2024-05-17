@@ -35,7 +35,7 @@ const Hero = () => {
       <div className="hero flex flex-col min-h-[100vh] pb-10 text-[#111]">
         <Navbar />
         <div className="w-[60%] text-center block mx-auto my-auto md:w-[80%]">
-          <h1 className="text-[4rem] tracking-wide font-extrabold md:text-[2.6rem]">
+          <h1 className="text-[4rem] tracking-wide font-extrabold md:text-[2.4rem]">
             HEY, I'M SAHIL HEDAU
           </h1>
           <p className="mt-4 text-2xl md:text-xl">

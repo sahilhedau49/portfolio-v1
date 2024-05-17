@@ -15,7 +15,7 @@ const Navbar = () => {
       </Link>
       <div
         className={`flex place-items-center gap-14 text-lg font-semibold text-gray-700 uppercase tracking-wide duration-300 md:backdrop-blur-3xl md:gap-10 md:flex-col md:absolute md:top-0 md:py-20 md:left-0 md:w-[100vw] md:h-fit ${
-          openMenu ? "md:translate-x-0" : "md:translate-x-full"
+          openMenu ? "md:translate-x-0" : "md:hidden"
         }`}
       >
         <div
