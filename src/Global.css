@@ -98,3 +98,7 @@
     transform: translateY(-100%);
   }
 }
+
+.mobile-nav-bg {
+  backdrop-filter: blur(200px);
+}

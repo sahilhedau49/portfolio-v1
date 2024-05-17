@@ -22,7 +22,6 @@ const Experience = () => {
           </Reveal>
 
           <Reveal>
-            {" "}
             <p>
               My role was to collaborate with design team and create a robust
               website based on their design. I used ReactJS and TailwindCSS to
@@ -31,9 +30,7 @@ const Experience = () => {
               for deployment I used netlify.
             </p>
           </Reveal>
-
           <Reveal>
-            {" "}
             <div className="flex gap-4">
               <a
                 href={import.meta.env.VITE_React_App_Homeo_URL}
