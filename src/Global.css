@@ -102,3 +102,9 @@
 .mobile-nav-bg {
   backdrop-filter: blur(200px);
 }
+
+@media screen and (max-width: 767px) {
+  .fill {
+    -webkit-text-stroke: 2px rgb(39 39 42 / var(--tw-text-opacity));
+  }
+}

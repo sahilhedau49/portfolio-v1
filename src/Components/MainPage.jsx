@@ -33,15 +33,15 @@ const MainPage = () => {
         <Contact />
       </div>
       {loading && (
-        <div className="font-sans select-none  loading-page min-h-screen min-w-full bg-zinc-900 fixed top-0 left-0 flex justify-center">
+        <div className="md:z-30 font-sans select-none loading-page min-h-screen min-w-full bg-zinc-900 fixed top-0 left-0 flex justify-center">
           <div className="fixed min-h-screen top-0 left-0 min-w-full place-content-center">
-            <p className="animate__animated animate__bounceInLeft fill text-zinc-800 font-extrabold text-[16rem]">
+            <p className="animate__animated animate__bounceInLeft fill text-zinc-800 font-extrabold text-[16rem] md:text-[4rem]">
               &lt; SH49 /&gt;
             </p>
           </div>
 
-          <div className="fixed min-h-screen -top-3 left-3 min-w-full text-center place-content-center">
-            <p className="animate__animated animate__bounceInRight text-zinc-800 font-extrabold text-[16rem]">
+          <div className="fixed min-h-screen -top-3 left-3 min-w-full text-center place-content-center md:-top-1 md:left-1">
+            <p className="animate__animated animate__bounceInRight text-zinc-800 font-extrabold text-[16rem] md:text-[4rem]">
               &lt; SH49 /&gt;
             </p>
           </div>
