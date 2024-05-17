@@ -2,7 +2,7 @@ import React from "react";
 
 const Project2 = ({ image, name, desc, tags, deployedUrl, githubUrl }) => {
   return (
-    <div className="my-20 text-right flex md:flex-col-reverse gap-10 w-[100%] md:my-10">
+    <div className="my-20 text-right flex md:flex-col-reverse gap-10 md:gap-6 w-[100%] md:my-10">
       <div className="flex flex-col place-content-center w-[40%] tracking-wider md:w-full">
         <h3 className="text-2xl font-bold mb-3 text-gray-600 md:text-xl">
           {name}

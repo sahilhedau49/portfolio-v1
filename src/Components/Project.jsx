@@ -2,7 +2,7 @@ import React from "react";
 
 const Project = ({ image, name, desc, tags, deployedUrl, githubUrl }) => {
   return (
-    <div className="my-20 flex md:flex-col gap-10 w-[100%] md:my-10">
+    <div className="my-20 flex md:flex-col gap-10 w-[100%] md:my-10 md:gap-6">
       <div className="w-[60%] rounded-xl project overflow-hidden md:w-full">
         <img
           className="rounded-xl project-img"
