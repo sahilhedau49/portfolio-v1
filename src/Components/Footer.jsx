@@ -6,14 +6,18 @@ const Footer = () => {
       <div>
         <div className="flex md:flex-col justify-between md:text-center">
           <div className="w-[40%] place-content-center md:w-full">
-            <h1 className="uppercase text-2xl font-medium">Sahil Hedau</h1>
-            <p className="mt-4 text-base">
+            <h1 className="uppercase text-2xl font-medium md:text-xl">
+              Sahil Hedau
+            </h1>
+            <p className="mt-4 text-base md:text-sm">
               Full Stack Developer and Competitive Programmer.
             </p>
           </div>
           <div className="w-[20%] md:w-full md:mt-10">
-            <h1 className="uppercase text-xl font-medium">Socials</h1>
-            <div className="flex text-3xl gap-4 mt-4 md:place-content-center">
+            <h1 className="uppercase text-xl font-medium md:text-lg">
+              Socials
+            </h1>
+            <div className="flex text-3xl md:text-2xl gap-4 mt-4 md:place-content-center">
               <a
                 href="https://www.linkedin.com/in/sahil-hedau-2a6729228/"
                 target="_blank"

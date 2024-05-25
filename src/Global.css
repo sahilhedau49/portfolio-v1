@@ -70,8 +70,8 @@
 
 .background {
   position: absolute;
-  width: 120vw;
-  margin-left: -10vw;
+  width: 140vw;
+  margin-left: -20vw;
   height: 100vh;
   z-index: -10;
   background-image: url("assets/bg.jpg");
@@ -82,13 +82,13 @@
 
 @keyframes float {
   0% {
-    transform: translate(40px, 0);
+    transform: translate(50px, 0);
   }
   50% {
-    transform: translate(-40px, 0);
+    transform: translate(-50px, 0);
   }
   100% {
-    transform: translate(40px, 0);
+    transform: translate(50px, 0);
   }
 }
 
@@ -126,7 +126,7 @@
 }
 
 .footer {
-  cursor: url("src/assets/icons8-select-cursor-24 -light.png"), auto;
+  cursor: url("assets/icons8-select-cursor-24-light.png"), auto;
 }
 
 @media screen and (max-width: 767px) {
@@ -161,5 +161,11 @@
 
   .box-shadow {
     box-shadow: 0 0 20px #c7c7c7;
+  }
+
+  .background {
+    width: 100vw;
+    margin-left: 0;
+    animation: none;
   }
 }

@@ -12,7 +12,7 @@ const ProjectsNavbar = () => {
       <div className="flex navbar justify-between px-20 py-7 text-gray-900 md:px-10">
         {/* bg-[#25282a] */}
         <Link to={"/"}>
-          <h1 className="text-2xl font-bold uppercase tracking-wide">
+          <h1 className="text-2xl md:text-xl font-bold uppercase tracking-wide">
             &lt;SH49/&gt;
           </h1>
         </Link>

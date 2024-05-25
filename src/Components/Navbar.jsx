@@ -7,9 +7,9 @@ const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
 
   return (
-    <div className="flex navbar justify-between px-20 py-7 text-[#111] md:px-10 md:filter-none">
+    <div className="flex navbar place-items-center justify-between px-20 py-7 text-[#111] md:px-10 md:filter-none">
       <Link to={"/"}>
-        <h1 className="text-2xl font-bold uppercase tracking-wide">
+        <h1 className="text-2xl font-bold uppercase tracking-wide md:text-xl">
           &lt;SH49/&gt;
         </h1>{" "}
       </Link>
@@ -44,7 +44,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className={`hidden md:flex md:z-20 text-3xl text-slate-950`}>
+      <div className={`hidden md:flex md:z-20 text-2xl text-slate-950`}>
         <CgMenu
           name="menu-outline"
           className={`${openMenu ? "md:hidden" : "md:inline-block"}`}
