@@ -47,7 +47,7 @@ const Hero = () => {
             for creating engaging and user web experiences. Along with this, I
             also practice Competitive Programming and DSA.
           </p>
-          <a href={import.meta.env.VITE_React_App_RESUME_URL} target="_blank">
+          <a href={import.meta.env.VITE_RESUME_URL} target="_blank">
             <button className="btn text-gray-200 mt-10 md:mt-6 duration-300 hover:-translate-y-1 px-10 md:px-6 py-3 md:py-2 rounded-lg text-xl md:text-base font-semibold bg-[#212223]">
               <i class="fa-solid fa-download"></i>
               {` `} RESUME

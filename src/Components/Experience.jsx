@@ -32,10 +32,7 @@ const Experience = () => {
           </Reveal>
           <Reveal>
             <div className="flex gap-4">
-              <a
-                href={import.meta.env.VITE_React_App_Homeo_URL}
-                target="_blank"
-              >
+              <a href={import.meta.env.VITE_HOMEO_URL} target="_blank">
                 <button className="btn text-gray-200 mt-4 duration-300 hover:-translate-y-1 px-6 py-2 md:px-4 rounded-lg text-sm md:text-xs bg-[#212223e0]">
                   Internship Certificate
                 </button>
