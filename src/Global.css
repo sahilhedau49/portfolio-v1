@@ -62,12 +62,34 @@
   filter: drop-shadow(-10px 0 20px #999);
 }
 
-.contact,
-.hero {
+.contact {
   background-image: url("assets/bg.jpg");
   background-position: center;
   background-size: cover;
-  overflow: hidden;
+}
+
+.background {
+  position: absolute;
+  width: 120vw;
+  margin-left: -10vw;
+  height: 100vh;
+  z-index: -10;
+  background-image: url("assets/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  animation: float 4s infinite linear;
+}
+
+@keyframes float {
+  0% {
+    transform: translate(40px, 0);
+  }
+  50% {
+    transform: translate(-40px, 0);
+  }
+  100% {
+    transform: translate(40px, 0);
+  }
 }
 
 .contact-shadow {
@@ -101,6 +123,10 @@
 
 .mobile-nav-bg {
   backdrop-filter: blur(200px);
+}
+
+.footer {
+  cursor: url("src/assets/icons8-select-cursor-24 -light.png"), auto;
 }
 
 @media screen and (max-width: 767px) {

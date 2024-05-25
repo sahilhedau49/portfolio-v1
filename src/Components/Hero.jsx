@@ -32,7 +32,8 @@ const Hero = () => {
           </li>
         </ul>
       </div>
-      <div className="hero flex flex-col min-h-[100vh] pb-10 text-[#111]">
+      <div className="background"></div>
+      <div className="flex flex-col min-h-[100vh] pb-10 text-[#111]">
         <Navbar />
         <div className="w-[60%] text-center block mx-auto my-auto md:w-[80%]">
           <h1 className="text-[4rem] tracking-wide font-extrabold md:text-[2.4rem]">
