@@ -4,7 +4,7 @@ import Project2 from "./Project2";
 import notehub from "../assets/notehub.png";
 import adidas from "../assets/adidas.png";
 import homeo from "../assets/homeo.png";
-import crypto from "../assets/crypto.png";
+import bloggerrrr from "../assets/bloggerrrr.png";
 import Reveal from "./Reveal";
 import { useNavigate } from "react-router-dom";
 
@@ -43,26 +43,22 @@ const ProjectSection = () => {
           </Reveal>
           <Reveal>
             <Project
+              image={bloggerrrr}
+              name={"Bloggerrrr"}
+              desc={"A social media web app for blogs."}
+              tags={"ReactJS, MySQL, Express, NodeJS, Auth0, TailwindCSS"}
+              deployedUrl={"https://bloggerrrr.netlify.app/"}
+              githubUrl={"https://github.com/sahilhedau49/Blog-API"}
+            />
+          </Reveal>
+          <Reveal>
+            <Project2
               image={homeo}
               name={"Homeo"}
               desc={"A Care and Home Services website made for StartUp."}
               tags={"ReactJS, TailwindCSS, Firebase"}
               deployedUrl={"https://homeo-react.netlify.app/"}
               githubUrl={"https://github.com/sahilhedau49/homeo-react"}
-            />
-          </Reveal>
-          <Reveal>
-            <Project2
-              image={crypto}
-              name={"Crypto-Currency Tracker"}
-              desc={"A protal to find various crypto currencies."}
-              tags={"ReactJS, Firebase, TailwindCSS, API"}
-              deployedUrl={
-                "https://crypto-currency-tracker-sahilhedau49.netlify.app/"
-              }
-              githubUrl={
-                "https://github.com/sahilhedau49/cryptocurrency-tracker"
-              }
             />
           </Reveal>
           <Reveal>

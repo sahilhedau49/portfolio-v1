@@ -18,8 +18,8 @@ const Contact = () => {
 
   return (
     <div id="contact" className="contact py-20 md:py-10">
-      <div className="w-[50%] mx-auto md:w-[85%]">
-        <div className="text-center">
+      <div className="w-[50%] mx-auto md:w-[95%]">
+        <div className="text-center md:px-4">
           <Reveal>
             <h1 className="text-3xl font-bold uppercase tracking-wide md:text-2xl">
               CONTACT

@@ -125,10 +125,6 @@
   backdrop-filter: blur(200px);
 }
 
-.footer {
-  cursor: url("assets/icons8-select-cursor-24-light.png"), auto;
-}
-
 @media screen and (max-width: 767px) {
   .fill {
     -webkit-text-stroke: 2px rgb(39 39 42 / var(--tw-text-opacity));
