@@ -13,7 +13,7 @@ const ProjectSection = () => {
   return (
     <>
       <div id="projects" className="flex my-20 pt-10 md:pt-0">
-        <div className="w-[70%] m-auto md:w-[80%]">
+        <div className="w-[70%] m-auto md:w-[90%]">
           <div className="text-center mb-10">
             <Reveal>
               <h1 className="text-3xl font-bold uppercase tracking-wide md:text-2xl">
