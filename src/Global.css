@@ -127,17 +127,16 @@
   }
 
   .icons {
-    display: flex;
-    flex-direction: column;
-    font-size: 2rem;
-    text-align: center;
-    padding: 10px;
-    border: 1px solid #777;
+    color: #222;
+    background: #dedede;
+    border-radius: 4px;
+    transition: 200ms;
+  }
+
+  .icons:hover {
     color: #c0c0c0;
     background: #2c3032;
-    border-radius: 2px;
-    transition: 200ms;
-    aspect-ratio: 1/1;
+    transform: scale(1.1);
   }
 
   .name {
@@ -152,5 +151,9 @@
     width: 100vw;
     margin-left: 0;
     animation: none;
+  }
+
+  .project {
+    filter: drop-shadow(0 5px 10px #dddddd);
   }
 }

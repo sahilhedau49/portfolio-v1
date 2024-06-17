@@ -24,7 +24,7 @@ const CodingProfiles = () => {
           <Reveal>
             <a href="https://leetcode.com/sahilhedau49/" target="_blank">
               <img
-                className="w-[8rem] profiles duration-300 hover:-translate-y-3"
+                className="w-[8rem] md:w-[6rem] profiles duration-300 hover:-translate-y-3"
                 src={leetcode}
                 alt="Leetcode Link"
               />
@@ -34,7 +34,7 @@ const CodingProfiles = () => {
           <Reveal>
             <a href="https://github.com/sahilhedau49" target="_blank">
               <img
-                className="w-[8rem] profiles duration-300 hover:-translate-y-3"
+                className="w-[8rem] md:w-[6rem] profiles duration-300 hover:-translate-y-3"
                 src={github}
                 alt="Github link"
               />
@@ -47,7 +47,7 @@ const CodingProfiles = () => {
               target="_blank"
             >
               <img
-                className="w-[8rem] profiles duration-300 hover:-translate-y-3"
+                className="w-[8rem] md:w-[6rem] profiles duration-300 hover:-translate-y-3"
                 src={gfg}
                 alt="GFG Link"
               />
@@ -61,7 +61,7 @@ const CodingProfiles = () => {
               target="_blank"
             >
               <img
-                className="w-[8rem] profiles duration-300 hover:-translate-y-3"
+                className="w-[8rem] md:w-[6rem] profiles duration-300 hover:-translate-y-3"
                 src={cf}
                 alt="Codeforces Link"
               />
@@ -74,7 +74,7 @@ const CodingProfiles = () => {
               target="_blank"
             >
               <img
-                className="w-[8rem] profiles duration-300 hover:-translate-y-3"
+                className="w-[8rem] md:w-[6rem] profiles duration-300 hover:-translate-y-3"
                 src={cc}
                 alt="Codechef link"
               />
