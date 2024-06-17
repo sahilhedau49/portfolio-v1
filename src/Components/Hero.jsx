@@ -13,10 +13,7 @@ const Hero = () => {
             </a>
           </li>
           <li className="px-3 text-center py-2 hover:bg-[#aaaaaa] rounded-md duration-300">
-            <a
-              href="https://www.linkedin.com/in/sahil-hedau-2a6729228/"
-              target="_blank"
-            >
+            <a href="https://www.linkedin.com/in/sahilhedau49" target="_blank">
               <i class="fa-brands fa-linkedin"></i>
             </a>
           </li>

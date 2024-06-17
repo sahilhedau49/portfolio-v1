@@ -2,6 +2,8 @@ import React from "react";
 import leetcode from "../assets/leetcode.png";
 import gfg from "../assets/gfg.png";
 import github from "../assets/github.png";
+import cf from "../assets/code-forces.svg";
+import cc from "../assets/cc.png";
 import Reveal from "./Reveal";
 
 const CodingProfiles = () => {
@@ -17,39 +19,68 @@ const CodingProfiles = () => {
           </h1>
         </Reveal>
       </div>
-      <div className="grid grid-cols-3 mt-20 w-fit mx-auto gap-32 text-lg md:mt-10 md:gap-6">
-        <Reveal>
-          <a href="https://leetcode.com/sahilhedau49/" target="_blank">
-            <img
-              className="w-[8rem] profiles duration-300 hover:-translate-y-3"
-              src={leetcode}
-              alt="Leetcode Link"
-            />
-          </a>
-        </Reveal>
+      <div>
+        <div className="grid grid-cols-3 mt-20 w-fit mx-auto gap-32 text-lg md:mt-10 md:gap-6">
+          <Reveal>
+            <a href="https://leetcode.com/sahilhedau49/" target="_blank">
+              <img
+                className="w-[8rem] profiles duration-300 hover:-translate-y-3"
+                src={leetcode}
+                alt="Leetcode Link"
+              />
+            </a>
+          </Reveal>
 
-        <Reveal>
-          <a href="https://github.com/sahilhedau49" target="_blank">
-            <img
-              className="w-[8rem] profiles duration-300 hover:-translate-y-3"
-              src={github}
-              alt="Github link"
-            />
-          </a>
-        </Reveal>
+          <Reveal>
+            <a href="https://github.com/sahilhedau49" target="_blank">
+              <img
+                className="w-[8rem] profiles duration-300 hover:-translate-y-3"
+                src={github}
+                alt="Github link"
+              />
+            </a>
+          </Reveal>
 
-        <Reveal>
-          <a
-            href="https://auth.geeksforgeeks.org/user/hedausahil49"
-            target="_blank"
-          >
-            <img
-              className="w-[8rem] profiles duration-300 hover:-translate-y-3"
-              src={gfg}
-              alt="GFG Link"
-            />
-          </a>
-        </Reveal>
+          <Reveal>
+            <a
+              href="https://auth.geeksforgeeks.org/user/hedausahil49"
+              target="_blank"
+            >
+              <img
+                className="w-[8rem] profiles duration-300 hover:-translate-y-3"
+                src={gfg}
+                alt="GFG Link"
+              />
+            </a>
+          </Reveal>
+        </div>
+        <div className="grid grid-cols-2 mt-10 w-fit mx-auto gap-32 text-lg md:mt-10 md:gap-6">
+          <Reveal>
+            <a
+              href="https://codeforces.com/profile/sahilhedau49"
+              target="_blank"
+            >
+              <img
+                className="w-[8rem] profiles duration-300 hover:-translate-y-3"
+                src={cf}
+                alt="Codeforces Link"
+              />
+            </a>
+          </Reveal>
+
+          <Reveal>
+            <a
+              href="https://www.codechef.com/users/sahil_hedau"
+              target="_blank"
+            >
+              <img
+                className="w-[8rem] profiles duration-300 hover:-translate-y-3"
+                src={cc}
+                alt="Codechef link"
+              />
+            </a>
+          </Reveal>
+        </div>
       </div>
     </div>
   );

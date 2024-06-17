@@ -44,7 +44,7 @@ const ProjectSection = () => {
           <Reveal>
             <Project
               image={bloggerrrr}
-              name={"Bloggerrrr"}
+              name={"Blogger"}
               desc={"A social media web app for blogs."}
               tags={"ReactJS, MySQL, Express, NodeJS, Auth0, TailwindCSS"}
               deployedUrl={"https://bloggerrrr.netlify.app/"}

@@ -19,7 +19,7 @@ const Footer = () => {
             </h1>
             <div className="flex text-3xl md:text-2xl gap-4 mt-4 md:place-content-center">
               <a
-                href="https://www.linkedin.com/in/sahil-hedau-2a6729228/"
+                href="https://www.linkedin.com/in/sahilhedau49"
                 target="_blank"
               >
                 <i className="fa-brands fa-linkedin"></i>
