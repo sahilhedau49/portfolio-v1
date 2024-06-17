@@ -40,6 +40,12 @@ const Navbar = () => {
           className="hover:-translate-y-1 cursor-pointer duration-300 hover:text-gray-900"
           onClick={() => setOpenMenu(false)}
         >
+          <a href="#skills">Skills</a>
+        </div>
+        <div
+          className="hover:-translate-y-1 cursor-pointer duration-300 hover:text-gray-900"
+          onClick={() => setOpenMenu(false)}
+        >
           <a href="#contact">Contact</a>
         </div>
       </div>

@@ -4,140 +4,175 @@ import Reveal from "./Reveal";
 const Skills = () => {
   return (
     <>
-      <div className="w-[60%] mx-auto md:w-[90%]">
-        <div className="text-center">
+      <div id="skills" className="w-[60%] mx-auto md:w-[90%] pt-10">
+        <div className="text-center mb-10">
           <Reveal>
             <h1 className="text-3xl font-bold uppercase tracking-wide md:text-2xl">
               Skills
             </h1>
           </Reveal>
         </div>
-        <div className="grid grid-cols-6 md:grid-cols-4 gap-1 mt-8">
-          <Reveal>
-            <div className="flex flex-col justify-between icons">
-              <i class="devicon-javascript-plain"></i>
-              <p className="name">JavaScript</p>
-            </div>
-          </Reveal>
+        <div className="mb-10">
+          <div className="text-2xl font-medium text-gray-800 mb-4">
+            <h1>Languages and Frameworks</h1>
+          </div>
+          <div className="grid grid-cols-4 gap-2">
+            <Reveal>
+              <div className="icons flex px-4 py-2 gap-6 place-items-center">
+                <i class="devicon-javascript-plain text-3xl"></i>
+                <p className="text-sm">JavaScript</p>
+              </div>
+            </Reveal>
+            <Reveal>
+              <div className="icons flex px-4 py-2 gap-4 place-items-center">
+                <i class="devicon-react-original text-3xl"></i>
+                <p className="text-sm">ReactJS</p>
+              </div>
+            </Reveal>
 
-          <Reveal>
-            <div className="flex flex-col justify-between icons">
-              <i class="devicon-firebase-plain"></i>
-              <p className="name">Firebase</p>
-            </div>
-          </Reveal>
+            <Reveal>
+              <div className="icons flex px-4 py-2 gap-4 place-items-center">
+                <i class="devicon-nodejs-plain text-3xl"></i>
+                <p className="text-sm">NodeJS</p>
+              </div>
+            </Reveal>
 
-          <Reveal>
-            <div className="flex flex-col justify-between icons">
-              <i class="devicon-react-original"></i>
-              <p className="name">React</p>
-            </div>
-          </Reveal>
+            <Reveal>
+              <div className="icons flex px-4 py-2 gap-4 place-items-center">
+                <i class="devicon-express-original text-3xl"></i>
+                <p className="text-sm">Express</p>
+              </div>
+            </Reveal>
 
-          <Reveal>
-            <div className="flex flex-col justify-between icons">
-              <i class="devicon-mongodb-plain"></i>
-              <p className="name">MongoDB</p>
-            </div>
-          </Reveal>
+            <Reveal>
+              <div className="icons flex px-4 py-2 gap-4 place-items-center">
+                <i class="devicon-tailwindcss-plain text-3xl"></i>
+                <p className="text-sm">TailwindCSS</p>
+              </div>
+            </Reveal>
 
-          <Reveal>
-            <div className="flex flex-col justify-between icons">
-              <i class="devicon-nodejs-plain"></i>
-              <p className="name">NodeJS</p>
-            </div>
-          </Reveal>
+            <Reveal>
+              <div className="icons flex px-4 py-2 gap-4 place-items-center">
+                <i class="devicon-cplusplus-plain text-3xl"></i>
+                <p className="text-sm">C/C++</p>
+              </div>
+            </Reveal>
 
-          <Reveal>
-            <div className="flex flex-col justify-between icons">
-              <i class="devicon-express-original"></i>
-              <p className="name">Express</p>
-            </div>
-          </Reveal>
+            <Reveal>
+              <div className="icons flex px-4 py-2 gap-4 place-items-center">
+                <i class="fa-brands fa-golang text-3xl"></i>
+                <p className="text-sm">Golang</p>
+              </div>
+            </Reveal>
 
-          <Reveal>
-            <div className="flex flex-col justify-between icons">
-              <i class="devicon-tailwindcss-plain"></i>
-              <p className="name">TailwindCSS</p>
-            </div>
-          </Reveal>
+            <Reveal>
+              <div className="icons flex px-4 py-2 gap-4 place-items-center">
+                <i class="devicon-java-plain text-3xl"></i>
+                <p className="text-sm">Java</p>
+              </div>
+            </Reveal>
 
-          <Reveal>
-            <div className="flex flex-col justify-between icons">
-              <i class="devicon-git-plain"></i>
-              <p className="name">Git</p>
-            </div>
-          </Reveal>
+            <Reveal>
+              <div className="icons flex px-4 py-2 gap-4 place-items-center">
+                <i class="devicon-python-plain text-3xl"></i>
+                <p className="text-sm">Python</p>
+              </div>
+            </Reveal>
 
-          <Reveal>
-            <div className="flex flex-col justify-between icons">
-              <i class="devicon-redux-original"></i>
-              <p className="name">Redux</p>
-            </div>
-          </Reveal>
+            <Reveal>
+              <div className="icons flex px-4 py-2 gap-4 place-items-center">
+                <i class="devicon-nextjs-original text-3xl"></i>
+                <p className="text-sm">NextJS</p>
+              </div>
+            </Reveal>
+            <Reveal>
+              <div className="icons flex px-4 py-2 gap-4 place-items-center">
+                <i class="devicon-redux-original text-3xl"></i>
+                <p className="text-sm">Redux</p>
+              </div>
+            </Reveal>
+            <Reveal>
+              <div className="icons flex px-4 py-2 gap-4 place-items-center">
+                <i class="devicon-html5-plain text-3xl"></i>
+                <p className="text-sm">HTML5</p>
+              </div>
+            </Reveal>
 
-          <Reveal>
-            <div className="flex flex-col justify-between icons">
-              <i class="devicon-html5-plain"></i>
-              <p className="name">HTML5</p>
-            </div>
-          </Reveal>
-
-          <Reveal>
-            <div className="flex flex-col justify-between icons">
-              <i class="devicon-css3-plain"></i>
-              <p className="name">CSS3</p>
-            </div>
-          </Reveal>
-
-          <Reveal>
-            <div className="flex flex-col justify-between icons">
-              <i class="devicon-cplusplus-plain"></i>
-              <p className="name">C++</p>
-            </div>
-          </Reveal>
-
-          <Reveal>
-            <div className="flex flex-col justify-between icons">
-              <i class="devicon-c-plain"></i>
-              <p className="name">C</p>
-            </div>
-          </Reveal>
-
-          <Reveal>
-            <div className="flex flex-col justify-between icons">
-              <i class="devicon-java-plain"></i>
-              <p className="name">Java</p>
-            </div>
-          </Reveal>
-
-          <Reveal>
-            <div className="flex flex-col justify-between icons">
-              <i class="devicon-python-plain"></i>
-              <p className="name">Python</p>
-            </div>
-          </Reveal>
-
-          <Reveal>
-            <div className="flex flex-col justify-between icons">
-              <i class="devicon-nextjs-original"></i>
-              <p className="name">NextJS</p>
-            </div>
-          </Reveal>
-
-          <Reveal>
-            <div className="flex flex-col justify-between icons">
-              <i class="devicon-bootstrap-plain"></i>
-              <p className="name">Bootstrap</p>
-            </div>
-          </Reveal>
-
-          <Reveal>
-            <div className="flex flex-col justify-between icons">
-              <i class="devicon-mysql-plain"></i>
-              <p className="name">MySQL</p>
-            </div>
-          </Reveal>
+            <Reveal>
+              <div className="icons flex px-4 py-2 gap-4 place-items-center">
+                <i class="devicon-css3-plain text-3xl"></i>
+                <p className="text-sm">CSS3</p>
+              </div>
+            </Reveal>
+            <Reveal>
+              <div className="icons flex px-4 py-2 gap-4 place-items-center">
+                <i class="devicon-bootstrap-plain text-3xl"></i>
+                <p className="text-sm">Bootstrap</p>
+              </div>
+            </Reveal>
+          </div>
+        </div>
+        <div className="mb-10">
+          <div className="text-2xl font-medium text-gray-800 mb-4">
+            <h1>Databases</h1>
+          </div>
+          <div className="grid grid-cols-4 gap-2">
+            <Reveal>
+              <div className="icons flex px-4 py-2 gap-4 place-items-center">
+                <i class="devicon-firebase-plain text-3xl"></i>
+                <p className="text-sm">Firebase</p>
+              </div>
+            </Reveal>
+            <Reveal>
+              <div className="icons flex px-4 py-2 gap-4 place-items-center">
+                <i class="devicon-mongodb-plain text-3xl"></i>
+                <p className="text-sm">MongoDB</p>
+              </div>
+            </Reveal>
+            <Reveal>
+              <div className="icons flex px-4 py-2 gap-4 place-items-center">
+                <i class="devicon-mysql-plain text-3xl"></i>
+                <p className="text-sm">MySQL</p>
+              </div>
+            </Reveal>
+          </div>
+        </div>
+        <div className="mb-10">
+          <div className="text-2xl font-medium text-gray-800 mb-4">
+            <h1>Others</h1>
+          </div>
+          <div className="grid grid-cols-4 gap-2">
+            <Reveal>
+              <div className="icons flex px-4 py-2 gap-4 place-items-center">
+                <i class="fa-solid fa-book text-3xl"></i>
+                <p className="text-sm">DSA</p>
+              </div>
+            </Reveal>
+            <Reveal>
+              <div className="icons flex px-4 py-2 gap-4 place-items-center">
+                <i class="devicon-git-plain text-3xl"></i>
+                <p className="text-sm">Git/GitHub</p>
+              </div>
+            </Reveal>
+            <Reveal>
+              <div className="icons flex px-4 py-2 gap-4 place-items-center">
+                <i class="devicon-vscode-plain text-3xl"></i>
+                <p className="text-sm">VS Code</p>
+              </div>
+            </Reveal>
+            <Reveal>
+              <div className="icons flex px-4 py-2 gap-4 place-items-center">
+                <i class="devicon-docker-plain text-3xl"></i>
+                <p className="text-sm">Docker</p>
+              </div>
+            </Reveal>
+            <Reveal>
+              <div className="icons flex px-4 py-2 gap-4 place-items-center">
+                <i class="devicon-fedora-plain text-3xl"></i>
+                <p className="text-sm">Fedora</p>
+              </div>
+            </Reveal>
+          </div>
         </div>
       </div>
     </>
