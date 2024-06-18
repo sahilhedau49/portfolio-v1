@@ -27,6 +27,9 @@ const Footer = () => {
               <a href="https://github.com/sahilhedau49" target="_blank">
                 <i className="fa-brands fa-github"></i>
               </a>
+              <a href="mailto:hedausahil49@gmail.com" target="_blank">
+                <i class="fa-solid fa-envelope"></i>
+              </a>
               <a href="https://twitter.com/sahil_hedau" target="_blank">
                 <i className="fa-brands fa-twitter"></i>
               </a>
@@ -36,7 +39,6 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div></div>
       </div>
     </div>
   );

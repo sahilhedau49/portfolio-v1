@@ -6,15 +6,20 @@ const Hero = () => {
   return (
     <>
       <div className="md:hidden absolute right-0 top-[50%] -translate-y-1/2 socials bg-[#c5c5c59d] rounded-lg">
-        <ul className="flex flex-col text-3xl px-1 py-2 gap-4">
+        <ul className="flex flex-col text-3xl px-1 py-2 gap-2">
+          <li className="px-3 text-center py-2 hover:bg-[#aaaaaa] rounded-md duration-300">
+            <a href="https://www.linkedin.com/in/sahilhedau49" target="_blank">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </li>
           <li className="px-3 text-center py-2 hover:bg-[#aaaaaa] rounded-md duration-300">
             <a href="https://github.com/sahilhedau49" target="_blank">
               <i class="fa-brands fa-github"></i>
             </a>
           </li>
           <li className="px-3 text-center py-2 hover:bg-[#aaaaaa] rounded-md duration-300">
-            <a href="https://www.linkedin.com/in/sahilhedau49" target="_blank">
-              <i class="fa-brands fa-linkedin"></i>
+            <a href="mailto:hedausahil49@gmail.com" target="_blank">
+              <i class="fa-solid fa-envelope"></i>
             </a>
           </li>
           <li className="px-3 text-center py-2 hover:bg-[#aaaaaa] rounded-md duration-300">
@@ -50,7 +55,7 @@ const Hero = () => {
               {` `} RESUME
             </button>
           </a>
-        </div>{" "}
+        </div>
         <div className="block">
           <img className="w-10 mx-auto" src={gif} />
         </div>
