@@ -23,22 +23,28 @@ const ProjectSection = () => {
           </div>
           <Reveal>
             <Project
-              image={adidas}
-              name={"Adidas Clone"}
-              desc={"An e-commerce website with admin dashboard."}
-              tags={"ReactJS, MongoDB, Express, NodeJS, Firebase, TailwindCSS"}
-              deployedUrl={"https://adidas-clone-sahilhedau49.netlify.app/"}
-              githubUrl={"https://github.com/sahilhedau49/adidas-clone"}
+              image={notehub}
+              name={"NoteHub"}
+              desc={
+                "A variety of documents sharing, storing, and managing application."
+              }
+              tags={"ReactJS, MySQL, Express, NodeJS, Firebase, TailwindCSS"}
+              deployedUrl={"https://notehub49.netlify.app/"}
+              githubUrl={"https://github.com/sahilhedau49/NoteHub"}
             />
           </Reveal>
           <Reveal>
             <Project2
-              image={notehub}
-              name={"NoteHub"}
-              desc={"A documents sharing and storing web application."}
-              tags={"ReactJS, Firebase, TailwindCSS, Firestore"}
-              deployedUrl={"https://notehub-sahilhedau49.netlify.app/"}
-              githubUrl={"https://github.com/sahilhedau49/NoteHub"}
+              image={adidas}
+              name={"Adidas Clone"}
+              desc={
+                "An e-commerce website with admin dashboard and Payment Integration."
+              }
+              tags={
+                "ReactJS, MongoDB, Express, NodeJS, Stripe Payments, Firebase, TailwindCSS"
+              }
+              deployedUrl={"https://adidas-clone-sahilhedau49.netlify.app/"}
+              githubUrl={"https://github.com/sahilhedau49/adidas-clone"}
             />
           </Reveal>
           <Reveal>

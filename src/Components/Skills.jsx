@@ -125,14 +125,14 @@ const Skills = () => {
             </Reveal>
             <Reveal>
               <div className="icons flex px-4 py-2 gap-4 place-items-center">
-                <i class="devicon-mongodb-plain  text-3xl md:text-2xl"></i>
-                <p className="text-sm">MongoDB</p>
+                <i class="devicon-mysql-plain  text-3xl md:text-2xl"></i>
+                <p className="text-sm">MySQL</p>
               </div>
             </Reveal>
             <Reveal>
               <div className="icons flex px-4 py-2 gap-4 place-items-center">
-                <i class="devicon-mysql-plain  text-3xl md:text-2xl"></i>
-                <p className="text-sm">MySQL</p>
+                <i class="devicon-mongodb-plain  text-3xl md:text-2xl"></i>
+                <p className="text-sm">MongoDB</p>
               </div>
             </Reveal>
           </div>

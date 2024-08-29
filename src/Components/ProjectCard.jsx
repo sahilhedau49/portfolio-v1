@@ -10,8 +10,8 @@ const ProjectCard = ({ data }) => {
         </div>
         <div className="w-[100%] flex justify-between mt-10">
           <div className="px-4 md:px-2">
-            <div className="text-2xl md:text-xl">{data.name}</div>
-            <div className="text-lg md:text-base mt-3 min-h-10 md:min-h-0">
+            <div className="text-2xl font-medium md:text-xl">{data.name}</div>
+            <div className="text-lg md:text-base mt-3 md:min-h-0">
               {data.desc}
             </div>
           </div>
